@@ -1,0 +1,36 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  background-color: white;
+}
+img {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-icons__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+.footer-icons__dsc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
